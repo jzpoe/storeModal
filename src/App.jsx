@@ -5,6 +5,7 @@ import { Carteras } from './components/routes/carteras/Carteras';
 import { Zapatos } from './components/routes/zapatos/Zapatos';
 import { Home } from './components/routes/home/Home';
 import Navbar from './components/navbar/Navbar';
+import { Administrador } from './components/routes/administrador/Administrador';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Route path='/bolsos' element={<Bolsos />} />
       <Route path='/carteras' element={<Carteras />} />
       <Route path='/zapatos' element={<Zapatos />} />
+      <Route path='/administrador' element={<Administrador />} />
+
       </Routes>
     </BrowserRouter>
   );

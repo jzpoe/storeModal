@@ -17,6 +17,9 @@ import './navbar.css'
         <li className="navbar-item">
           <Link to={"zapatos"} className="navbar-link">Carteras</Link>
         </li>
+        <li className="navbar-item">
+          <Link to={"administrador"} className="navbar-link">Administrador</Link>
+        </li>
       </ul>
     </nav>
 
